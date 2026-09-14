@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- Shared settings and every game reference live in ../Directory.Build.props
+       (self-contained for this standalone repo). This file only names the plugin. -->
+  <PropertyGroup>
+    <AssemblyName>VehicleTrunk</AssemblyName>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+  <!-- EventCache / EventManager (the stash open request) live in the game's DeadReckoned.Tlsa assembly. -->
+  <ItemGroup>
+    <Reference Include="DeadReckoned.Tlsa">
+      <HintPath>$(BepInExInterop)\DeadReckoned.Tlsa.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+</Project>

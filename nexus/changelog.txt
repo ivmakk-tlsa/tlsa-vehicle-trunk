@@ -1,0 +1,5 @@
+v1.0.0 - 2026-09-14
+Added: A storage trunk on your vehicle. Open it and move loot in and out, so you do not carry the weight.
+Added: A configurable weight limit for the trunk (default 100), and an on/off toggle.
+Added: Trunk contents persist between missions and across save and reload, and empty when your survivor dies.
+Added: Open the trunk while holding a weapon or carrying a fuel can. If you have a supply bag on your back, hand it in first, then open the trunk.

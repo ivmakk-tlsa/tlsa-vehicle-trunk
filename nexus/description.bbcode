@@ -1,0 +1,40 @@
+[size=5]Description[/size]
+Vehicle Trunk adds storage to your vehicle, giving you somewhere to leave spare weapons, supplies, and other loot without adding to your carried weight. Walk up to your vehicle and open the trunk to move items in and out using the game's familiar stash screen.
+
+The trunk starts with a weight capacity of [b]100[/b]. Adjust [font=Courier New]TrunkWeightCapacity[/font] in the config to suit your playstyle. Your loot travels with you between missions and survives saving and reloading, but [b]the trunk's contents are lost when your survivor dies[/b].
+
+[size=5]Main features[/size]
+[list]
+[*]Offload loot at your vehicle to free up carrying capacity.
+[*]Choose your trunk's weight limit with [font=Courier New]TrunkWeightCapacity[/font] (default 100).
+[*]Keep stored items between missions and when you save and reload.
+[*]Open the trunk while holding a weapon or carrying a fuel can. If you have a supply bag on your back, hand it in first, then open the trunk.
+[/list]
+
+[size=5]Requirements[/size]
+[list]
+[*][url=https://www.nexusmods.com/thelaststandaftermath/mods/1]BepInEx for The Last Stand: Aftermath[/url]. Install it first.
+[/list]
+
+[size=5]Installation[/size]
+[list=1]
+[*]Install [url=https://www.nexusmods.com/thelaststandaftermath/mods/1]BepInEx[/url] [i](if no other mods were installed before, start the game once so BepInEx finishes setup, then quit)[/i].
+[*]Extract this mod's zip into the game folder (the folder with the game .exe). The DLL lands in BepInEx\plugins. Full path examples:
+[list]
+[*]Steam: [code]C:\Program Files (x86)\Steam\steamapps\common\The Last Stand Aftermath\BepInEx\plugins\VehicleTrunk.dll[/code]
+[*]Epic: [code]C:\Program Files\Epic Games\The Last Stand Aftermath\BepInEx\plugins\VehicleTrunk.dll[/code]
+[/list]
+[/list]
+
+[size=5]Uninstall[/size]
+Delete VehicleTrunk.dll from the BepInEx\plugins folder. Empty the trunk first for a clean uninstall. Trunk items left behind stay in the save but become inaccessible without the mod, and come back if you reinstall it.
+
+[size=5]Configuration[/size]
+Run the game once with the mod installed to create [font=Courier New]BepInEx\config\com.ivmakk.tlsa.vehicletrunk.cfg[/font]. Close the game, edit the file in a text editor, then start the game again.
+
+[font=Courier New]TrunkWeightCapacity[/font] sets how much weight the trunk can hold. The default is [b]100[/b]; for example, set it to [b]200[/b] to double the capacity. Lowering the limit never deletes stored items. You can still take them out; adding more requires enough free capacity.
+
+See the [url=https://github.com/ivmakk-tlsa/tlsa-vehicle-trunk/blob/main/CONFIG.md]configuration guide[/url] for all settings and an example.
+
+[size=5]Source and license[/size]
+Open source under GPL-3.0: [url=https://github.com/ivmakk-tlsa/tlsa-vehicle-trunk]github.com/ivmakk-tlsa/tlsa-vehicle-trunk[/url]
